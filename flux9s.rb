@@ -1,23 +1,23 @@
 class Flux9s < Formula
   desc "K9s-inspired terminal UI for monitoring Flux GitOps resources"
   homepage "https://github.com/dgunzy/flux9s"
-  version "0.5.0"
+  version "0.5.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/dgunzy/flux9s/releases/download/v0.5.0/flux9s-macos-x86_64.tar.gz"
-      sha256 "f50f66e35190934a35231dbcc4d96b202cc3e7eb19efdb8ef93c43786408b778"
+      url "https://github.com/dgunzy/flux9s/releases/download/v0.5.2/flux9s-macos-x86_64.tar.gz"
+      sha256 "3cb7ab4e045bce8b472ba6c7c50b6b20db0d512158caef0c7e48c518d2429e67"
     elsif Hardware::CPU.arm?
-      url "https://github.com/dgunzy/flux9s/releases/download/v0.5.0/flux9s-macos-aarch64.tar.gz"
-      sha256 "04801b6c2a42dee9d8f19e556ecb17e3f9e0cea9d3b3953cc94be060cc0c03ff"
+      url "https://github.com/dgunzy/flux9s/releases/download/v0.5.2/flux9s-macos-aarch64.tar.gz"
+      sha256 "fe08259840ea7790254c53f355f6ea62eea0541b801cdf6e55777b4c2ce0e22d"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/dgunzy/flux9s/releases/download/v0.5.0/flux9s-linux-x86_64.tar.gz"
-      sha256 "0126056bf75a062c05653f1f29b93d5f03c1a548941199250ff3a8a0ce1bb732"
+      url "https://github.com/dgunzy/flux9s/releases/download/v0.5.2/flux9s-linux-x86_64.tar.gz"
+      sha256 "c193a86205608d874e7998e4e5c4ed239799841f54abd1b482eacbf910bc8bf3"
     end
   end
 
